@@ -1,0 +1,31 @@
+.sidebaroption__main {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-left: 2px;
+}
+
+.sidebaroption__main:hover {
+  opacity: 0.9;
+  background-color: whitesmoke;
+}
+
+.sidebaroption__left {
+  display: flex;
+  align-items: center;
+}
+
+.sidebaroption__right {
+  display: flex;
+  align-items: center;
+}
+
+.highlightedText {
+  color: black;
+}
+
+.nothighlightedText {
+  color: grey;
+}

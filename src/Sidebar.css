@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito&family=Open+Sans&display=swap");
+
+.sidebar__main {
+  border-radius: 10px;
+  text-align: center;
+  height: fit-content;
+  min-width: 180px;
+  flex: 0.2;
+  font-family: Nunito;
+}
+
+.sidebar__header {
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: url(https://media.istockphoto.com/photos/falling-rain-in-tokyo-japan-picture-id820362642?b=1&k=20&m=820362642&s=170667a&w=0&h=Av7b7tMEp8E7aYpOr73bO-QY08GwZsuY1HpW5wJ_riA=);
+  color: white;
+  text-align: center;
+}
+
+.sidebar__header > h3 {
+  padding-top: 25px;
+}
+
+.sidebar__body1,
+.sidebar__body2,
+.sidebar__body3 {
+  background: white;
+  border-radius: 10px;
+  padding: 15px 0px 15px 0px;
+  margin: 20px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+}
